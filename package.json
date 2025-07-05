@@ -1,0 +1,30 @@
+{
+  "name": "beboundless-query",
+  "version": "1.0.0",
+  "description": "beboundless 证明者信息查询脚本和Telegram机器人",
+  "main": "beboundless_query.js",
+  "scripts": {
+    "start": "node beboundless_query.js",
+    "query": "node beboundless_query.js",
+    "bot": "node telegram_bot.js",
+    "webhook:set": "node setup-webhook.js set",
+    "webhook:info": "node setup-webhook.js info",
+    "webhook:delete": "node setup-webhook.js delete"
+  },
+  "keywords": [
+    "beboundless",
+    "blockchain",
+    "query",
+    "prover",
+    "telegram",
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+} 
